@@ -3,15 +3,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '94716159814'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '94740273578'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sandaru:sandu123@cluster0.piqcnbr.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'Sithumkalhara271@gmail.com'
 global.github = 'https://github.com/Sithuwa/SITHUWA-MD'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com' // add your username
-global.sudo = process.env.SUDO || "94716159814"
-global.devs = '94716159814';
+global.sudo = process.env.SUDO || "94740273578"
+global.devs = '94740273578';
 global.website = 'https://github.com/Sithuwa/SITHUWA-MD' //wa.me/+94000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg'
 module.exports = {
@@ -20,13 +20,13 @@ module.exports = {
   packname:  process.env.PACK_NAME || 'MADE BY SITHUM KALHARA',
   
   botname:   process.env.BOT_NAME === undefined ? "SITHUWA-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'Sandaru' : process.env.OWNER_NAME,  
-  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
+  ownername: process.env.OWNER_NAME === undefined ? '~ツ 𝙰𝙻𝚘𝚗𝚎 𝚜𝚊𝚓𝚊' : process.env.OWNER_NAME,  
+  auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '234' : process.env.FAKE_COUNTRY_CODE,
-  readmessage:  process.env.READ_MESSAGE === undefined ? true : process.env.READ_MESSAGE,
+  readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
