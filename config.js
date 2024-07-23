@@ -6,7 +6,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER || '94716159814'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sandaru:sandu123@cluster0.piqcnbr.mongodb.net/"
 global.port= process.env.PORT || 5000
-global.email = 'Sithumkalhara271@gmail.com'
+global.email = 'sandarubandara001@gmail.com'
 global.github = 'https://github.com/Sithuwa/SITHUWA-MD'
 global.location = 'Sri Lanka'
 global.gurl = 'https://instagram.com' // add your username
